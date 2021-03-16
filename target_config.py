@@ -75,7 +75,6 @@ class CheckTarget(aetest.Testcase):
                             break
                         else:
                             vlan_value = " "
-
                         if "Name:" in each:
                             port_short_name_array = each.split(" ")
                             port_short_name = port_short_name_array[1]
